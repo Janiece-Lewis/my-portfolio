@@ -1,5 +1,5 @@
 * {
-    border: 1px solid rgb(211, 13, 211); 
+    border: 1px solid rgb(211, 13, 211);    
     font-family: Arial, Helvetica, sans-serif;
     padding:0%;
     margin:0%;
@@ -11,38 +11,60 @@ body {
 
 header {
     background-color: rgb(10, 2, 2);
+    height: 100px;
   
 
 }
 
 .hero {
     background-image: url("../images/heroimage3.jpg");
-    height: 180px;
+    margin: auto;
+    padding: auto;
+    height:200px;
     width: 100%;
-    margin-bottom: 12px;
     background-size: cover;
     background-position:center;
+    position: relative; 
   
 }
 
+.hero-text {
+    margin-left:0;
+    margin-top: -5%; 
+    
+}  
+
+.hero-text h2 {
+color: rgb(235, 226, 226);
+font-size: 30pt;
+margin-left: 75%;
+margin-top: 90%;
+
+
+   
+}  
+
 .name {
     color: rgb(232, 219, 219);
-    background-color: rgb(0, 0, 0);
-    font-size: 25pt;
+    background-color: rgb(177, 112, 217);
+    font-size: 20pt;
     display: inline-block;
-    margin-left: 6px;
+    margin-top: 9px;
+    margin-left: auto;
     margin-right: auto;
-    padding: 5px;
-    position:absolute;
+    padding: 2px;
+    position:absolute; 
+    
 
-}
+} 
 
 nav {
     position: relative;
-    list-style-type: none;
+    /* list-style-type: none; */
+
     margin:0px;
     text-align: right;
-    padding: 10px;
+    padding: 26px;
     
     
 
@@ -50,14 +72,14 @@ nav {
 
 }
 
-nav ul li {
+nav li {
 
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     text-align: right;
     text-decoration: underline;
     color: rgb(250, 243, 243);
-    font-size: 18pt;
+    font-size: 20pt;
     padding: 10px;
     margin:10px ;
 
@@ -66,18 +88,12 @@ nav ul li {
 h2 {
     display: inline;
     color: #000000;
-    background-color: rgb(144, 144, 184);
+    background-color: rgba(144, 144, 184, 0.958);
     line-height: 500px;
     font-size:30pt;
 }
 
-.hero-text {
-  
-    margin
-    padding:
- 
-    
-}
+
 
 .page-section {
     margin: 25px 0;
@@ -90,47 +106,54 @@ h2 {
 
 }
 
-.sections {
+ /* section {
     color: #000000;
     background-color: blue;
     font-size:50pt;
     margin-left: 300%;
     padding:0%;
    
-}
+} */
 
 p {
     font-size: 200%;
 }
 
-.work-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-   
-    
-
+/* .main {
+    background-image: url(../images/workimage1.jpg);
 }
 
+.prework {
+    background-image: url(../images/workimage2.jpg);
+} */
+
+
+
 
 .work-flex-container {
-    /* flex: 1 0 200px; */
-    
+    flex: 1 0 200px; 
+    display: flex;
+    flex-wrap: wrap; 
+     
 }
 
 .flex-item{
-    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 200px;
+    height:50%;
+    margin: 5px;
+    padding: 20px;
+    /* border-style: solid;
+    border-width: 10px;
+    border-color:rgb(111, 194, 254) */
 }
 
-/* .image-box img {
-    max-width: 200px;
-    height: 200px;
-   
-     
-} */
 
-.main-flex-item {
-    width: 10%;
+
+.flex-item-main {
+    width: 100%;
     height: 50%;
     
     
@@ -140,7 +163,6 @@ h3,span {
   
     display: block;
     padding-top:10px;
-
     width: 200px;
     background-color: rgb(168, 11, 240);
 }
