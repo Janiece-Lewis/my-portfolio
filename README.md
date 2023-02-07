@@ -17,7 +17,7 @@ I want to display my work to a potential employers.A deployed portfolio of work 
 so that future employers can review samples of users' work and assess whether they're a good candidate for an open position
 ```
 <!-- ## Preview  -->
-![preview image](../my-portfolio/assets/images/portpreview.png))
+![preview image](../my-portfolio/assets/images/portpreview.png)
 
 [Deployed Link](https://janiece-lewis.github.io/my-portfolio/)
 
