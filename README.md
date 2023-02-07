@@ -19,7 +19,7 @@ so that future employers can review samples of users' work and assess whether th
 <!-- ## Preview  -->
 ![preview image](../my-portfolio/assets/images/portpreview.png))
 
-ADD DEPLOYED LINK
+[Deployed Link](https://janiece-lewis.github.io/my-portfolio/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open and issue first to discuss what you would like to change.
